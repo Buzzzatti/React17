@@ -2,14 +2,13 @@
   width: 100%;
   height: var(--navbar-height);
   background: var(--inverted-bg-color);
-  display:'flex';
+  display: flex;
   align-items: center;
   padding: 20px;
 }
 
 .links{
   margin-left: auto;
-  width: fit-content;
 }
 
 .mainLink{
