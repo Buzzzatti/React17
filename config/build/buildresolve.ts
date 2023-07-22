@@ -7,6 +7,6 @@ export function buildResolve(opions: BuildOptions): webpack.ResolveOptions {
         preferAbsolute: true,
         modules: [opions.paths.src, 'node_modules'],
         mainFiles: ['index'],
-        alias:{}
-    }
+        alias: {},
+    };
 }
